@@ -8,7 +8,7 @@ after_success:
   - 'pip3 install --user pipenv'
   - 'cd _utils'
   - 'pipenv sync'
-  - 'pipenv run python3 _utils/merge.py'
+  - 'pipenv run python3 merge.py'
 env:
   global:
     - secure: h/nll0NOthoeuxuwg0qpPxWv85QYgzhrJM7CLF4okAEk0Rl3tPaVwmH7n95hag+7ZKPXl+xXrQXPbcGstlgOejvcO8QnqiA67EVS+BvCRAeu0tzYSiBokWQfSiIyij4kY7pGMO579uoaFn3CTjQwlr6NrB8ufXNwr1How/HikBBPqa85DfaebvY1lZ/NATeqGzk/+imB+zaL1Lcy1zSEcahkAkc2l/vFBYeJXsWfNpYVmMGnMrYX2G1mxG9N+hjOh7dc8Eprc6NyckRMRlGhvIARpMlWawdCz3IUwASPxyApwssNZeoGwkr24NTONCxMtoOdVmzz+BX1uVnXV96+ImEZNsbEkUoBmj3ChEtNaox8o86+bZ7nvgTrNzh1tXE7o1EGbz5A+524ICx5Xmr6Pil5VyQnUAVNBP4boRRiGWcDdAArLUEWX5pJdotpHKDUOlMKjC9Mas5SnWkPlpkvGbpGM0/nVHHGudE9PLqKmdBxkqgOI+bMHQXyssHmz+UFkna6if1Y21ftFKBhN3Ru6WX92nVENv0p96ucIj5uFdgKN+jvKR3V/LyAzD8kzGFSLiE2E+ON8h22q+RmYmrRmctoiKkObnRAR9xY8nnrpXlopSu2k0fch2xbFO3CMGgUSgwFXmGQFLQBrNBydB1l3txnq1bEWe9CgLMEJMfqJgg=
