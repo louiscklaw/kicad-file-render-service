@@ -10,7 +10,7 @@ itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 pycparser==2.18
-pycryptodome==3.6.1
+pycryptodome==3.6.6
 PyJWT==1.6.1
 pyOpenSSL==17.5.0
 redis==2.10.6
